@@ -1,6 +1,6 @@
 ﻿#
 # LGA.ps1 (C) 2022 @homo-metallicus (Romain DECLE)
-# https://github.com/homo-metallicus/moOde-mountstatus
+# https://github.com/homo-metallicus/ecm
 #
 # This Program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
