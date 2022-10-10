@@ -18,8 +18,8 @@
 
 Set-ExecutionPolicy -force Unrestricted
 
-$SOURCE="D:\SCAN\lycee-admin\RH"
-$DESTINATION="D:\SHARES\EPL\COMMUN EPL\6-GRH\4-RESSOURCES HUMAINES (RH)\RH (Dossier par personnel)"
+$SOURCE="D:\SCAN\RH"
+$DESTINATION="D:\SHARES\COMMUN\RESSOURCES HUMAINES"
 $CORRESPONDANCE=[ordered]@{}
 $CORRESPONDANCE["adm"]=[ordered]@{ "name" = "Administratif" ; "1" = "CNI" ; "2" = "PC" ; "3" = "Attestations" ; "4" = "RIB" ; "5" = "Etat civil" ; "6" = "Diplômes" ; "7" = "CV" ; "8" = "Casier judiciaire" ; "9" = "Notifications" }
 $CORRESPONDANCE["ctr"]=[ordered]@{ "name" = "Contrat" ; "1" = "Contrats et avenants" ; "2" = "Arrêtés" ; "3" = "Fiches de notation" ; "4" = "Entretiens pro" ; "5" = "CET" ; "6" = "Rapports inspection" }
