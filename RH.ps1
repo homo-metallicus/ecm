@@ -59,7 +59,7 @@ $SRC = "$SOURCE\*.pdf"
 $filesPath = Get-ChildItem $SRC
 ForEach($file in $filesPath){
     $fileName = $file.Name
-    $shortedFileName = $fileName.Split('.')[0]; #remove the extension
+    $shortedFileName = $fileName.Split('.')[0];
     $newFileName = $fileName.Split('.')[0]+"_"+$JOUR+"."+$fileName.Split('.')[1]
     $arr = $shortedFileName.Split('-')
 
